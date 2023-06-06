@@ -1,21 +1,9 @@
-{
-  "statements": [
-    {
-      "source": {
-        "web": {
-          "site": "https://mytestapp.local"
-        }
-      },
-      "relation": "delegate_permission/common.handle_all_urls",
-      "target": {
-        "androidApp": {
-          "packageName": "mytestapp.applinks",
-          "certificate": {
-            "sha256Fingerprint": "BF:BC:40:36:A0:BC:1F:0A:FE:E3:51:63:10:AC:E7:F1:96:DC:BB:28:E5:70:4E:E2:64:EA:CC:4A:B9:A3:B3:3E"
-          }
-        }
-      }
-    }
-  ],
-  "maxAge": "599.998704399s"
-}
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "com.example.testapp",
+    "package_name": "com.example.testapp",
+    "sha256_cert_fingerprints":
+    ["B6:A1:F2:D1:F8:42:A6:31:8D:BE:D5:BE:11:44:07:4B:A2:22:AC:8E:33:49:CE:5E:45:03:DE:9A:5B:3D:12:B6"]
+  }
+}]
