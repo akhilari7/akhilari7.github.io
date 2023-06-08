@@ -1,1 +1,9 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"com.example.testapp","package_name":"com.example.testapp","sha256_cert_fingerprints":["B6:A1:F2:D1:F8:42:A6:31:8D:BE:D5:BE:11:44:07:4B:A2:22:AC:8E:33:49:CE:5E:45:03:DE:9A:5B:3D:12:B6"]}}
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "com.example.testapp",
+    "package_name": "com.example.testapp",
+    "sha256_cert_fingerprints":
+    ["B6:A1:F2:D1:F8:42:A6:31:8D:BE:D5:BE:11:44:07:4B:A2:22:AC:8E:33:49:CE:5E:45:03:DE:9A:5B:3D:12:B6"]
+  }
+}]
